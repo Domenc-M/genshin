@@ -1,0 +1,244 @@
+body {
+background-image:url("../img/ui/background.png");
+margin:0;
+}
+
+
+
+/* ************************BANNER */
+.bannerContainer {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    height:70vh;
+    width:70vw;
+}
+
+.bannerContainer img {
+    height:100%;
+    width:100%;
+    object-fit:contain;
+}
+
+
+/************************************** WISH TYPE */
+.wishType {
+    position:absolute;
+    top:0;
+    left:0;
+    color:white;
+}
+
+/* ************************************RESOURCES */
+
+.resources {
+position:absolute;
+top:5px;
+right:0;
+display:flex;
+align-items:center;
+}
+.resources *{
+margin:0px 10px;
+}
+
+.fate {
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius:20px;
+    color:white;
+    font-size:1.5rem;
+    height:2rem;
+    padding:1px 10px;
+}
+
+.fate .imgContainer {
+    height:2rem;
+    width:2rem;
+}
+
+.fate .imgContainer img {
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+#fateNumber {
+    margin-top:0.2rem;
+}
+
+.primogems {
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius:20px;
+    color:white;
+    font-size:1.5rem;
+    height:2rem;
+    padding:1px 10px;
+}
+
+.primogems .imgContainer {
+    height:2rem;
+    width:2rem;
+}
+
+.primogems .imgContainer img {
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+#primoNumber {
+    margin-top:0.2rem;
+}
+
+.x {
+    margin-top:0.1rem;
+}
+
+/* *************************************SHOPLIST */
+
+.shopList {
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.shopList ul {
+    list-style:none;
+    display:flex;
+}
+
+.shopList li {
+    background-color:white;
+    border-radius:20px;
+    padding:1px 20px;
+    margin:5px;
+}
+
+
+/* *************************************WISH BUTTONS */
+
+.wishBtnBox {
+    position:absolute;
+    bottom:0;
+    right:0;
+    display:flex;
+}
+
+.wishBtnBox>div {
+    position:relative;
+}
+
+.wishBtnBox .imgContainer {
+    height: 90%;
+    width:100%;
+}
+
+.wishBtnBox .imgContainer img {
+    height: 100%;
+    width:100%;
+    object-fit:contain;
+}
+
+.wishBtnBox .imgContainerFate {
+    height:1rem;
+    width:1rem;
+    margin-right:0;
+}
+
+.wishBtnBox .imgContainerFate img {
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.wishTextBox {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+.wishNumber {
+    display:flex;
+}
+
+.wishYellowText {
+    color:#B39F8A;
+}
+
+/* ********************************PULL */
+
+#singleCharacterDisplayBox {
+    position:absolute;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-image:url(../img/ui/pullBackground.jpg);
+}
+
+#tenCharactersDisplayBox {
+    position:absolute;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-image:url(../img/ui/pullBackground.jpg);
+    display:flex;
+    align-items:center;
+}
+
+#singleCharacterDisplayBox img {
+    height:100%;
+    width:100%;
+    object-fit:contain;
+}
+
+#characterMask {
+    position:absolute;
+    background-color:white;
+    height:100%;
+    width:100%;
+    transition:0.5s;
+    z-index:149;
+}
+
+#pullVideo {
+    z-index:150;
+}
+
+/* *************************************FRAME AND TEN PULL */
+
+.frameContainer {
+    height:60vh;
+    width: 10vw;
+    overflow:hidden;
+    position:relative;
+}
+
+.tenFrame {
+    height:100%;
+    width:100%;
+    object-fit:contain;
+}
+
+.tenPortrait {
+    position:absolute;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.portraitContainer {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    height:45vh;
+    width:9vw;
+    background-size:45vw;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y:center;
+}
